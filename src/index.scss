@@ -28,11 +28,19 @@ code {
   color: #707070;
 }
 .subtitle-margin {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 .input-invision {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+.errorInput{
+  color: #000 !important;
+  border-bottom: 1px solid #f20 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
 }
 .form-control, .form-control:active {
   color: #000;
@@ -54,11 +62,26 @@ code {
 .label-input {
   color: #707070
 }
-.btn-confirm {
+.btn-confirm{
   background-color: #707070;
   border-radius: 100px;
   padding: 10px 40px;
   border: none;
+  box-shadow: none;
+}
+.btn-confirm:focus {
+  background-color: #707070 !important;
+  border-radius: 100px !important;
+  padding: 10px 40px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.btn-confirm:active {
+  background-color: #707070 !important;
+  border-radius: 100px !important;
+  padding: 10px 40px !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 .btn-google {
   background-color: #fff;
@@ -67,6 +90,22 @@ code {
   padding: 10px 40px;
   border: none;
   box-shadow: 0px 3px 6px #00000029;
+}
+.btn-google {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-radius: 100px !important;
+  padding: 10px 40px !important;
+  border: none !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+}
+.btn-google {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-radius: 100px !important;
+  padding: 10px 40px !important;
+  border: none !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
 }
 .img-google{
   margin-right: 15px;
@@ -105,6 +144,27 @@ code {
   font-size: 15px;
 }
 .blue-link{
+  cursor: pointer;
   color: #A9C5BA;
   text-decoration: underline;
+}
+.container-fluid {
+  height: 100vh;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.img-carousel {
+  height: 100vh;
+  background-color: #A9C5BA;
+}
+.error {
+  color: #d20;
+}
+.justify-content-center{
+  justify-content: center;
+}
+@media only screen and (max-width: 767px) {
+  .hidden-sm {
+    display: none;
+  }
 }
